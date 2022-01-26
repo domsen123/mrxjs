@@ -1,0 +1,33 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1,
+    "total": 7,
+    "workspacePrefix": "/home/dmarx/development/@mrx"
+  },
+  "1 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "@app/blank@1.0.0 dev: `mrx dev`\nspawn ENOENT",
+      "code": "ELIFECYCLE",
+      "stack": "Error: @app/blank@1.0.0 dev: `mrx dev`\nspawn ENOENT\n    at ChildProcess.<anonymous> (/home/dmarx/.nvm/versions/node/v16.13.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.28.0/node_modules/pnpm/dist/pnpm.cjs:91976:22)\n    at ChildProcess.emit (node:events:390:28)\n    at maybeClose (node:internal/child_process:1064:16)\n    at Process.ChildProcess._handle.onexit (node:internal/child_process:301:5)"
+    }
+  },
+  "2 error pnpm": {
+    "code": "ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL",
+    "errno": "ENOENT",
+    "syscall": "spawn",
+    "file": "sh",
+    "pkgid": "@app/blank@1.0.0",
+    "stage": "dev",
+    "script": "mrx dev",
+    "pkgname": "@app/blank",
+    "prefix": "/home/dmarx/development/@mrx/@apps/blank",
+    "err": {
+      "name": "pnpm",
+      "message": "@app/blank@1.0.0 dev: `mrx dev`\nspawn ENOENT",
+      "code": "ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL",
+      "stack": "Error: @app/blank@1.0.0 dev: `mrx dev`\nspawn ENOENT\n    at ChildProcess.<anonymous> (/home/dmarx/.nvm/versions/node/v16.13.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.28.0/node_modules/pnpm/dist/pnpm.cjs:91976:22)\n    at ChildProcess.emit (node:events:390:28)\n    at maybeClose (node:internal/child_process:1064:16)\n    at Process.ChildProcess._handle.onexit (node:internal/child_process:301:5)"
+    }
+  },
+  "3 warn pnpm:global": " Local package.json exists, but node_modules missing, did you mean to install?"
+}

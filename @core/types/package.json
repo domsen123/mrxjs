@@ -1,0 +1,10 @@
+{
+  "name": "@mrx/types",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.ts",
+  "dependencies": {
+    "@mrx/entry": "workspace:^1.0.0",
+    "@mrx/server": "workspace:^1.0.0"
+  }
+}

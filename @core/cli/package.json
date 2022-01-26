@@ -1,0 +1,15 @@
+{
+  "name": "@mrx/cli",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.ts",
+  "dependencies": {
+    "commander": "^8.3.0",
+    "dotenv": "^14.3.0",
+    "esbuild": "^0.14.13",
+    "module-alias": "^2.2.2"
+  },
+  "bin": {
+    "mrx": "./cli.js"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "lib": ["ESNext", "DOM"],
+    "module": "ESNext",
+    "target": "es2021",
+
+    "baseUrl": ".",
+    "outDir": "dist",
+    "sourceMap": false,
+    "moduleResolution": "node",
+    "allowJs": false,
+    "strict": true,
+    "noUnusedLocals": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "rootDir": ".",
+    "removeComments": true,
+    "skipLibCheck": true,
+    "types": ["node", "vite/client"],
+    "paths": {
+      "@mrx/*": ["@core/*"]
+    }
+  },
+  "exclude": ["node_modules", "**/node_modules", "**/dist"],
+  "ts-node": {
+    "transpileOnly": true,
+    "compilerOptions": {
+      "strict": false,
+      "allowJs": true,
+      "module": "commonjs",
+      "esModuleInterop": true,
+      "skipLibCheck": true
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "@app/blank",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "mrx dev"
+  },
+  "dependencies": {
+    "@mrx/cli": "workspace:^1.0.0"
+  }
+}

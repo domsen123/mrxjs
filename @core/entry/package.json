@@ -1,0 +1,17 @@
+{
+  "name": "@mrx/entry",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.ts",
+  "dependencies": {
+    "@vitejs/plugin-vue": "^2.1.0",
+    "@vueuse/core": "^7.5.4",
+    "@vueuse/head": "^0.7.5",
+    "pug": "^3.0.2",
+    "rollup": "^2.66.1",
+    "vite": "^2.7.13",
+    "vite-ssr": "^0.15.0",
+    "vue": "^3.2.29",
+    "vue-router": "^4.0.12"
+  }
+}
