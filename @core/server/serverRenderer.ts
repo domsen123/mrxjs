@@ -11,17 +11,12 @@ export const createSsrRenderer = async (
   server: FastifyInstance,
   config: ApplicationConfig,
 ): Promise<void> => {
-  const isDev = true;
   await server.register(middie);
 
-  if (isDev) {
+  if (config.isDev) {
     server.log.info(`Setting up development Server ...`);
     const viteConfig = await getViteConfig({
-      mode: config.mode,
-      server: {
-        middlewareMode: 'ssr',
-        fs: { strict: false },
-      },
+      // mode: config.mode,
       define: {
         __APP_CONFIG__: JSON.stringify(config),
       },
