@@ -24,7 +24,8 @@
     "peerDependencyRules": {
       "ignoreMissing": [
         "react",
-        "rollup"
+        "rollup",
+        "react-dom"
       ]
     }
   }

@@ -1,4 +1,4 @@
-import 'vuetify/styles';
+import './assets/styles/app.css';
 import viteSsr from 'vite-ssr/vue';
 import { createHead } from '@vueuse/head';
 import App from './App.vue';
@@ -10,6 +10,7 @@ export default viteSsr(App, { routes }, async (ctx) => {
     i.install?.(ctx),
   );
   const { app } = ctx;
+
   const head = createHead();
   app.use(head);
   return { head };

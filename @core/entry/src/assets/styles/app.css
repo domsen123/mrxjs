@@ -1,0 +1,10 @@
+html,
+body,
+#app,
+.application {
+  min-height: 100vh;
+}
+
+.ant-layout-header[theme='light'] {
+  background-color: #ffffff;
+}

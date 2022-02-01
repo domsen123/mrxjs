@@ -4,11 +4,13 @@
   "type": "module",
   "main": "index.ts",
   "dependencies": {
+    "@mrx/api": "workspace:^1.0.0",
     "@mrx/entry": "workspace:^1.0.0",
     "@mrx/types": "workspace:^1.0.0",
     "fastify": "^3.27.0",
     "fastify-compress": "^4.0.1",
     "fastify-static": "^4.5.0",
+    "less": "^4.1.2",
     "middie": "^6.0.0",
     "pino-pretty": "^7.5.0"
   }

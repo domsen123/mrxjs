@@ -1,10 +1,11 @@
 <template lang="pug">
-v-app
-  v-navigation-drawer(app)
-  v-app-bar(app)
-  v-main
-    v-container
-      h1 Application layout
+a-layout.application(has-sider)
+  a-layout-sider(theme="light" v-model:collapsed="collapsed" collapsible) Sider
+  a-layout
+    a-layout-header(theme="light") Header
+    a-layout-content Content
 </template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+const collapsed = ref<boolean>(false);
+</script>

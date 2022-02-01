@@ -1,0 +1,13 @@
+{
+  "name": "@mrx/ui",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.ts",
+  "dependencies": {
+    "@mrx/entry": "workspace:^1.0.0",
+    "@vue/compiler-sfc": "^3.2.29",
+    "ant-design-vue": "^2.2.8",
+    "pug": "^3.0.2",
+    "vue": "^3.2.29"
+  }
+}
